@@ -33,8 +33,10 @@ const personalMovieDB = {
     privat: false,
 };
 
-const oneOfLastMovies = prompt('Один из последних просмотренных фильмов?');
-const oneOfLastMoviesRating = prompt('На сколько оцените его?');
-personalMovieDB.movies[oneOfLastMovies] = oneOfLastMoviesRating;
-console.log(personalMovieDB.movies);
-console.log(personalMovieDB.movies.oneOfLastMovies);5
+const oneOfLastMovies1 = prompt('Один из последних просмотренных фильмов?');
+const oneOfLastMoviesRating1 = prompt('На сколько оцените его?');
+const oneOfLastMovies2 = prompt('Один из последних просмотренных фильмов?');
+const oneOfLastMoviesRating2 = prompt('На сколько оцените его?');
+
+personalMovieDB.movies[oneOfLastMovies1] = oneOfLastMoviesRating1;
+personalMovieDB.movies[oneOfLastMovies2] = oneOfLastMoviesRating2;
